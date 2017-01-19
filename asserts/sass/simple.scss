@@ -1,3 +1,4 @@
+@import "variables";
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 
 /* Main */
@@ -554,7 +555,7 @@ em {
     .product-item {
         width: 50%;
         line-height: 150px;
-        color: white;
+        color: $white;
         font-weight: bold;
         font-size: 1em;
         text-align: center;
@@ -590,7 +591,7 @@ em {
 }
 
 #guarantee {
-    color: white;
+    color: $white;
     font-size: 20px;
     font-size: 2rem;
     background: rgb(172, 176, 5);
@@ -605,7 +606,7 @@ em {
 #people {
     background: rgb(245, 220, 115);
     .headline {
-        color: white;
+        color: $white;
         padding-bottom: 20px;
         padding-bottom: 2rem;
     }
@@ -621,8 +622,8 @@ em {
         opacity: .8;
         margin-bottom: 5%;
         max-width: 400px;
-        background: #FFFFFF;
-        background: rgba(255, 255, 255, 0.2);
+        background: $white;
+        background: rgba($white, 0.2);
         box-shadow: 5px 5px 3px rgba(243, 211, 80, 0.5);
         border-radius: 20px;
         &:hover {
@@ -642,8 +643,8 @@ em {
                 color: #D14348;
             }
             .card-title {
-                color: #FFFFFF;
-                color: rgba(255, 255, 255, 0.6);
+                color: $white;
+                color: rgba($white, 0.6);
                 font-size: 14px;
                 font-size: 1.4rem;
                 line-height: 100%;
