@@ -303,15 +303,15 @@ em {
 
 @media screen and (min-width: 600px) {
   .header {
- background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/running.jpg");
- background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/running.jpg");
- background-repeat: no-repeat;
- background-position: center center;
- background-size: cover;
- height: 100vh;
- max-height: 800px;
- -webkit-transition: all 0.5s ease;
- transition: all 0.5s ease;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/running.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/running.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    max-height: 800px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
 }
 
@@ -321,19 +321,19 @@ em {
 
 @media screen and (min-width: 600px) {
   .tagline {
- display: block;
- color: #EEE8D6;
- max-width: 40em;
- line-height: 140%;
- font-size: 2.5rem;
+    display: block;
+    color: #EEE8D6;
+    max-width: 40em;
+    line-height: 140%;
+    font-size: 2.5rem;
   }
   .tagline h1 {
- display: none;
+    display: none;
   }
   .tagline em {
- font-size: 140%;
- color: #F3D350;
- font-style: normal;
+    font-size: 140%;
+    color: #F3D350;
+    font-style: normal;
   }
 }
 
@@ -395,42 +395,42 @@ em {
 
 @media screen and (min-width: 600px) {
   .nav .nav-elements {
- display: -webkit-box;
- display: -webkit-flex;
- display: -ms-flexbox;
- display: flex;
- -webkit-box-pack: justify;
- -webkit-justify-content: space-between;
- -ms-flex-pack: justify;
- justify-content: space-between;
- -webkit-box-align: start;
- -webkit-align-items: flex-start;
- -ms-flex-align: start;
- align-items: flex-start;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 }
 
 @media screen and (min-width: 600px) {
   .nav .nav-elements .branding {
- width: 30%;
- margin: 0;
+    width: 30%;
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 600px) {
   .nav .nav-elements .navbar {
- width: 70%;
- display: -webkit-box;
- display: -webkit-flex;
- display: -ms-flexbox;
- display: flex;
- -webkit-flex-wrap: wrap;
- -ms-flex-wrap: wrap;
- flex-wrap: wrap;
- -webkit-box-pack: end;
- -webkit-justify-content: flex-end;
- -ms-flex-pack: end;
- justify-content: flex-end;
+    width: 70%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
 }
 
@@ -542,10 +542,10 @@ em {
 
 @media screen and (min-width: 600px) {
   .footer .social {
- position: absolute;
- right: 0;
- bottom: 0;
- padding: 0 0 15px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 0 15px;
   }
 }
 
@@ -574,19 +574,19 @@ em {
 
 @media screen and (min-width: 600px) {
   #products .product-list .product-item {
- width: 33.3333333334%;
+    width: 33.3333333334%;
   }
 }
 
 @media screen and (min-width: 900px) {
   #products .product-list .product-item {
- width: 25%;
+    width: 25%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   #products .product-list .product-item {
- width: 16.666667%;
+    width: 16.666667%;
   }
 }
 
@@ -691,29 +691,29 @@ em {
 
 @media screen and (min-width: 600px) {
   #people .people-cards {
- display: -webkit-box;
- display: -webkit-flex;
- display: -ms-flexbox;
- display: flex;
- -webkit-flex-wrap: wrap;
- -ms-flex-wrap: wrap;
- flex-wrap: wrap;
- -webkit-box-pack: justify;
- -webkit-justify-content: space-between;
- -ms-flex-pack: justify;
- justify-content: space-between;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 }
 
 @media screen and (min-width: 600px) {
   #people .people-cards .person-card {
- width: 45%;
+    width: 45%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   #people .people-cards .person-card {
- width: 30%;
+    width: 30%;
   }
 }
 
@@ -755,3 +755,5 @@ em {
   right: 10px;
   padding: 10px 25px;
 }
+
+/*# sourceMappingURL=simple.css.map */
